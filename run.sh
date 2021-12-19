@@ -1,0 +1,1 @@
+docker run -v /var/run/docker.sock:/var/run/docker.sock --privileged=true -d --name container-mysql-provisioning-multi -p 32111:32111 mysql-provisioning-multi-docker
